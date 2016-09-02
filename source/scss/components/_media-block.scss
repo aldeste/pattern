@@ -1,0 +1,19 @@
+.media {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  // font-family: $headline-font-family;
+}
+
+// .author__avatar {
+//   @extend .avatar;
+// }
+
+.media__body {
+  padding: 1rem;
+}
+
+.media__excerpt {
+  color: $color-body-text;
+  // font-size: #{pow(1.5, -1)}rem;
+}

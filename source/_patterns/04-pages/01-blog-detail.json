@@ -1,0 +1,39 @@
+{
+	"blogTitle" : "Javascript Modules Are Pretty Cool",
+	"blogTags" : [
+		{
+			"tagLabel" : "JavaScript",
+			"tagUrl" : "#"
+		},
+		{
+			"tagLabel" : "WebPack",
+			"tagUrl" : "#"
+		},
+		{
+			"tagLabel" : "es6",
+			"tagUrl" : "#"
+		}
+	],
+	"img" : {
+		"avatar" : {
+			"src" : "../../../images/avatar.png",
+			"retinasrc" : "../../../images/avatar.png"
+		}
+	},
+	"author": "Name Nameson",
+	"media-modifier": "author",
+	"media__media-modifier": "author__media",
+	"media__headline-modifier": "author__name",
+	"media__excerpt-modifier": "author__date",
+	"headline" : {
+		"short": "Name Nameson"
+	},
+	"excerpt": {
+		"medium": "04 feb 2015"
+	},
+	"figure" : {
+		"image": "../../../images/sample/blog-mtns6.jpg",
+		"alt": "Picture of batman",
+		"caption": "This is a picture of Bamtna"
+	}
+}

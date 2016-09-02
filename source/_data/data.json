@@ -1,0 +1,41 @@
+{
+  "key": "value",
+  "key2": "use this for variables you want to load globally",
+  "btnText" : "Button",
+  "progress" : true,
+  "max" : "100",
+  "progressValue" : "85",
+  "label" : "Label",
+  "alertText" : "This is an alert!",
+  "alertStyleModifier" : "error",
+  "blogTags" : [
+    {
+      "tagLabel" : "tag",
+      "tagUrl" : "#"
+    },
+    {
+      "tagLabel" : "tag",
+      "tagUrl" : "#"
+    }
+  ],
+  "author" : "Author Namename",
+  "field" : {
+    "id" : "field-id",
+    "label" : "Label",
+    "type" : "text",
+    "placeholder" : "Placeholder",
+    "value" : "",
+    "fieldNote" : ""
+  },
+  "headline" : {
+    "short" : "Headline"
+  },
+  "excerpt" : {
+    "medium" : "Some text goes here"
+  },
+  "figure" : {
+    "image": "../../images/fpo_16x9.png",
+    "alt": "About this picture",
+    "caption": "This is a text about the picture"
+  }
+}

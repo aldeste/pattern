@@ -1,0 +1,13 @@
+.alert {
+  @extend %ui-font-family;
+  width: 100%;
+}
+
+.alert__message {
+  padding: 1rem;
+}
+
+.alert--error {
+  color: $gravel;
+  background: $athens-gray;
+}

@@ -1,0 +1,163 @@
+/**
+ * Colors
+ */
+// Pallette
+$ship-grey: #323133;
+$gravel: #4B4A4D;
+$blue-violet: #6060BF;
+$athens-gray: #EDEDF4;
+
+// System colors
+// Typography
+$color-background: #fff;
+$color-ui-accent: $blue-violet;
+
+$color-body-text: darken($ship-grey, 3%);
+$color-headline-text: $ship-grey;
+$color-dimmed-text: $gravel;
+
+$color-emphasis-text: lighten($blue-violet, 40%);
+
+$link-color: $blue-violet;
+$link-active-color: lighten($blue-violet, 10%);
+
+// Buttons
+$button-background-color: $blue-violet;
+$button-color: $athens-gray;
+
+// Form
+$form-input-color: $athens-gray;
+
+/**
+ * Globals;
+ */
+$boder-radius: 3px;
+
+/**
+ * Typography
+ */
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700|Karla:400,700';
+
+$base-font-family: "Chrimson Text", serif;
+$base-font-weight: 400;
+$base-font-line-height: 1.53;
+$base-font-size: 21px;
+
+$headline-font-family: "Karla", sans-serif;
+$headline-font-weight: 700;
+
+$harmonic-ratio: 1.5;
+
+/**
+ * Animation
+ */
+
+$animate-quickly: 88.87ms;
+$animate-normal: 0.3s;
+$animate-slowly: 675ms;
+$ease-in: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+$ease-out: cubic-bezier(0.165, 0.84, 0.44, 1);
+$ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+$ease-linear: linear;
+
+/**
+ * Form
+ */
+$input-border-width: 1px;
+$input-border-color: darken($color-headline-text, 5%);
+$label-font-weight: 500;
+
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
+$font : "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+$font-secondary : Georgia, Times, "Times New Roman", serif;
+
+$font-size-small : 0.75rem;
+$font-size-small-2 : 0.875rem;
+$font-size-med : 1rem;
+$font-size-med-2: 1.0625rem;
+$font-size-large : 1.4375rem;
+
+
+
+
+
+
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+$l-max-width: 80em;
+
+/**
+ * Spacing Defaults
+ */
+$space : 1em;
+$space-and-half : $space*1.5;
+$space-double : $space*2;
+$space-quad : $space*4;
+$space-half : $space/2;
+$pad : 1em;
+$pad-and-half : $pad*1.5;
+$pad-double : $pad*2;
+$pad-half : $pad/2;
+$pad-quarter :$pad/4;
+
+
+
+
+
+/*------------------------------------*\
+    #BORDERS
+\*------------------------------------*/
+
+/**
+ * Border Width
+ */
+$border-med: 3px;
+$border-thick: 7px;
+
+/**
+ * Border Radius
+ */
+$border-radius: 6px;
+
+
+
+
+
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+
+/**
+ * Animation Duration
+ */
+$anim-speed-quick: 0.2s;
+
+/**
+ * Animation Easing
+ */
+$anim-ease: ease;
+
+
+
+
+/*------------------------------------*\
+    #BREAKPOINTS
+\*------------------------------------*/
+
+/**
+ * Breakpoints
+ */
+$bp-small : 24em;
+$bp-small-2 : 29.75em;
+$bp-small-3 : 39.8em;
+$bp-med : 46.8em;
+$bp-med-2 : 48em;
+$bp-large : 50em;
+$bp-large-2 : 66em;
+$bp-xl : 73em;
+$bp-xxl : 89em;
+$bp-xxxl : 93em;

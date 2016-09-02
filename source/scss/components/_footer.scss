@@ -1,0 +1,24 @@
+footer {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+
+.footer__icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.icon {
+		height: 29px;
+		width: 29px;
+	}
+}
+
+.footer__author {
+	@extend %ui-font-family;
+	font-size: #{pow(1.5, -1)}rem;
+
+	button {
+		font-size: #{pow(1.5, -1)}rem;
+	}
+}

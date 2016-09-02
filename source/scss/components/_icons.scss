@@ -1,0 +1,11 @@
+.icon {
+	background: transparent;
+
+	svg {
+		fill: $gravel;
+
+		&:hover {
+			fill: lighten($gravel, 10%);
+		}
+	}
+}

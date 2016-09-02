@@ -1,0 +1,38 @@
+.move-in {
+	will-change: transform;
+	transition: transform $animate-normal $ease-out;
+	transform: scale(1);
+
+	&:hover {
+		transform: scale(.8);
+	}
+}
+
+.move-out {
+	will-change: transform;
+	transition: transform $animate-normal $ease-in;
+	transform: scale(1);
+
+	&:hover {
+		transform: scale(.8);
+	}
+}
+
+.move-in-out {
+	will-change: transform;
+	transition: transform $animate-normal $ease-in-out;
+	transform: scale(1);
+
+	&:hover {
+		transform: scale(.8);
+	}
+}
+
+.change-color {
+	will-change: background;
+	transition: background $animate-normal $ease-linear;
+
+	&:hover {
+		background: $athens-gray;
+	}
+}

@@ -1,0 +1,17 @@
+img,
+video,
+object {
+	max-width: 100%;
+	height: auto;
+}
+
+.media--avatar {
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	background: $athens-gray;
+}
+
+.media--logo {
+	width: 10rem;
+}

@@ -1,0 +1,10 @@
+.tags {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.link--tag {
+  @extend button;
+  @extend .button--alternative;
+  font-size: #{pow(1.5, -1)}rem;
+}

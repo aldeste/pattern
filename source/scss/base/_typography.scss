@@ -1,0 +1,49 @@
+:root {
+  font: $base-font-weight #{$base-font-size}/#{$base-font-line-height} $base-font-family;
+  color: $color-body-text;
+}
+
+%headline-font-family {
+  font-family: $headline-font-family;
+}
+
+%ui-font-family {
+  @extend %headline-font-family;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @extend %headline-font-family;
+  color: $color-headline-text;
+  font-weight: $headline-font-weight;
+  letter-spacing: -.03em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: #{pow(1.5, 3)}rem;
+}
+
+h2 {
+  font-size: #{pow(1.5, 2)}rem;
+}
+
+h3 {
+  font-size: #{pow(1.5, 1)}rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+em {
+  background-color: $color-emphasis-text;
+  font-style: normal;
+}
+
+.text--pop {
+  @extend h3;
+}

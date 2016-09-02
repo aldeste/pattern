@@ -1,0 +1,25 @@
+input,
+textarea,
+select {
+  background: $form-input-color;
+  padding: .5rem;
+  font-size: 1rem;
+  border-radius: $boder-radius;
+  border: none;
+}
+
+.form__label--hidden {
+  display: none;
+}
+
+textarea {
+	width: 100%;
+}
+
+label {
+  font-family: $headline-font-family;
+}
+
+select {
+  -webkit-appearance: none;
+}

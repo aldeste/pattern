@@ -1,0 +1,8 @@
+figure {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+figcaption {
+  font-size: #{pow(1.5, -1)}rem;
+}

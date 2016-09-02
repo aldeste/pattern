@@ -1,0 +1,43 @@
+button,
+input[type="submit"] {
+  @extend %ui-font-family;
+  background: $button-background-color;
+  color: $button-color;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1;
+  padding: .5em;
+  border-radius: $boder-radius;
+  border: 0;
+  transition: background-color $animate-quickly $ease-linear;
+  &:hover,
+  &:focus {
+    background: lighten($button-background-color, 5%);
+  }
+  &:active {
+    background: darken($button-background-color, 10%);
+  }
+}
+
+.button--alternative {
+  background: $gravel;
+  &:hover,
+  &:focus {
+    background: lighten($gravel, 5%);
+  }
+  &:active {
+    background: darken($gravel, 10%);
+  }
+}
+
+.button--tag {
+  background: $athens-gray;
+  color: $gravel;
+  &:hover,
+  &:focus {
+    background: lighten($athens-gray, 5%);
+  }
+  &:active {
+    background: darken($athens-gray, 10%);
+  }
+}

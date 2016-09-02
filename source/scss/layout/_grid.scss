@@ -1,0 +1,14 @@
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100vw;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: padding 400ms ease-out;
+
+  @media (min-width: 800px) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}

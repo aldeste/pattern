@@ -1,0 +1,15 @@
+.header {
+  background: $gravel;
+  padding: .5rem 1rem;
+  font-size: .8em;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  will-change: transform;
+}
+
+.header + * {
+  margin-top: 6rem;
+}
