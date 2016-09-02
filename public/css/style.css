@@ -1,0 +1,330 @@
+/**
+ * Colors
+ */
+/**
+ * Globals;
+ */
+/**
+ * Typography
+ */
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700|Karla:400,700';
+/**
+ * Animation
+ */
+/**
+ * Form
+ */
+/*------------------------------------*    #TYPOGRAPHY
+\*------------------------------------*/
+/*------------------------------------*    #LAYOUT
+\*------------------------------------*/
+/**
+ * Spacing Defaults
+ */
+/*------------------------------------*    #BORDERS
+\*------------------------------------*/
+/**
+ * Border Width
+ */
+/**
+ * Border Radius
+ */
+/*------------------------------------*    #ANIMATION
+\*------------------------------------*/
+/**
+ * Animation Duration
+ */
+/**
+ * Animation Easing
+ */
+/*------------------------------------*    #BREAKPOINTS
+\*------------------------------------*/
+/**
+ * Breakpoints
+ */
+.move-in {
+  will-change: transform;
+  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transform: scale(1); }
+  .move-in:hover {
+    transform: scale(0.8); }
+
+.move-out {
+  will-change: transform;
+  transition: transform 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transform: scale(1); }
+  .move-out:hover {
+    transform: scale(0.8); }
+
+.move-in-out {
+  will-change: transform;
+  transition: transform 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+  transform: scale(1); }
+  .move-in-out:hover {
+    transform: scale(0.8); }
+
+.change-color {
+  will-change: background;
+  transition: background 0.3s linear; }
+  .change-color:hover {
+    background: #EDEDF4; }
+
+body {
+  background: #fff; }
+
+input,
+textarea,
+select {
+  background: #EDEDF4;
+  padding: .5rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: none; }
+
+.form__label--hidden {
+  display: none; }
+
+textarea {
+  width: 100%; }
+
+label {
+  font-family: "Karla", sans-serif; }
+
+select {
+  -webkit-appearance: none; }
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #6060BF; }
+
+a:not(.link--tag):active, a:not(.link--tag):hover {
+  color: #8484ce; }
+
+ul {
+  list-style: none; }
+
+img,
+video,
+object {
+  max-width: 100%;
+  height: auto; }
+
+.media--avatar {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  background: #EDEDF4; }
+
+.media--logo {
+  width: 10rem; }
+
+progress {
+  background-color: #EDEDF4;
+  display: block;
+  width: 100%;
+  height: .2rem; }
+
+progress::-moz-progress-bar {
+  background: #6060BF; }
+
+progress::-webkit-progress-bar {
+  background: #EDEDF4; }
+
+progress::-webkit-progress-value {
+  background: #6060BF; }
+
+progress::-ms-fill {
+  background: #6060BF; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+:root {
+  font: 400 21px/1.53 "Chrimson Text", serif;
+  color: #2a2a2b; }
+
+.alert, .author__date, button, .link--tag,
+input[type="submit"], .footer__author, h1,
+h2,
+h3, .text--pop,
+h4,
+h5 {
+  font-family: "Karla", sans-serif; }
+
+h1,
+h2,
+h3,
+.text--pop,
+h4,
+h5 {
+  color: #323133;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  line-height: 1.2; }
+
+h1 {
+  font-size: 3.375rem; }
+
+h2 {
+  font-size: 2.25rem; }
+
+h3, .text--pop {
+  font-size: 1.5rem; }
+
+h4 {
+  font-size: 1rem; }
+
+em {
+  background-color: #f1f1fa;
+  font-style: normal; }
+
+.alert {
+  width: 100%; }
+
+.alert__message {
+  padding: 1rem; }
+
+.alert--error {
+  color: #4B4A4D;
+  background: #EDEDF4; }
+
+.article * {
+  margin-top: 1rem; }
+
+.author__media img {
+  width: 50px;
+  height: 50px; }
+
+.author__name {
+  font-size: 1rem; }
+
+.author__date {
+  font-size: 0.66667rem; }
+
+button, .link--tag,
+input[type="submit"] {
+  background: #6060BF;
+  color: #EDEDF4;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1;
+  padding: .5em;
+  border-radius: 3px;
+  border: 0;
+  transition: background-color 88.87ms linear; }
+  button:hover, .link--tag:hover, button:focus, .link--tag:focus,
+  input[type="submit"]:hover,
+  input[type="submit"]:focus {
+    background: #7272c6; }
+  button:active, .link--tag:active,
+  input[type="submit"]:active {
+    background: #4444a8; }
+
+.button--alternative, .link--tag {
+  background: #4B4A4D; }
+  .button--alternative:hover, .link--tag:hover, .button--alternative:focus, .link--tag:focus {
+    background: #58565a; }
+  .button--alternative:active, .link--tag:active {
+    background: #323133; }
+
+.button--tag {
+  background: #EDEDF4;
+  color: #4B4A4D; }
+  .button--tag:hover, .button--tag:focus {
+    background: #fdfdfe; }
+  .button--tag:active {
+    background: #cdcde1; }
+
+figure {
+  display: flex;
+  flex-flow: column wrap; }
+
+figcaption {
+  font-size: 0.66667rem; }
+
+footer {
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer__icons .icon {
+    height: 29px;
+    width: 29px; }
+
+.footer__author {
+  font-size: 0.66667rem; }
+  .footer__author button, .footer__author .link--tag {
+    font-size: 0.66667rem; }
+
+.media {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem; }
+
+.media__body {
+  padding: 1rem; }
+
+.media__excerpt {
+  color: #2a2a2b; }
+
+.icon {
+  background: transparent; }
+  .icon svg {
+    fill: #4B4A4D; }
+    .icon svg:hover {
+      fill: #646367; }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.footer__author {
+  align-self: flex-end; }
+
+.tags {
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+
+.link--tag {
+  font-size: 0.66667rem; }
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100vw;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: padding 400ms ease-out; }
+  @media (min-width: 800px) {
+    .container {
+      padding-left: 5rem;
+      padding-right: 5rem; } }
+
+.header {
+  background: #4B4A4D;
+  padding: .5rem 1rem;
+  font-size: .8em;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  will-change: transform; }
+
+.header + * {
+  margin-top: 6rem; }

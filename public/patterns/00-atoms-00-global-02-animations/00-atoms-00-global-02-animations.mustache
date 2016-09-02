@@ -1,0 +1,30 @@
+<style>
+
+</style>
+
+<p>There's a difference in animating movement and shapes contra
+   and just fading colors or transparancy.</p>
+<p>The timer follows a 1.5 scale based on 300, meaning possible allowed values could be:</p>
+<ol>
+  <li>675</li>
+  <li>300</li>
+  <li>88.87</li>
+</ol>
+<p>This is simplified by naming the animations, $animate-quickly, $animate-normal, $animate-slowly</p>
+<p>This gives animation rythm as per <a href="http://alistapart.com/article/communicating-animation">Rachel Nabors</a></p>
+<h3>Rudamentary examples</h3>
+<div class="demo-animate move-in">
+  <strong>Physical transformation into page</strong> cubic-bezier(0.165, 0.84, 0.44, 1);
+</div>
+
+<div class="demo-animate move-out">
+  <strong>Physical transformation out of page</strong> cubic-bezier(0.895, 0.03, 0.685, 0.22);
+</div>
+
+<div class="demo-animate move-in-out">
+  <strong>Physical transformation in page</strong> cubic-bezier(0.77, 0, 0.175, 1);
+</div>
+
+<div class="demo-animate change-color">
+  <strong>Simple change</strong> linear;
+</div>

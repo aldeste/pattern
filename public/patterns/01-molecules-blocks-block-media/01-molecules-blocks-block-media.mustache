@@ -1,0 +1,10 @@
+<a href="{{ url }}" class="media {{ media-modifier }}">
+	<div class="media__media {{ media__media-modifier }}">
+		{{> atoms-avatar:media__avatar }}
+	</div>
+
+	<div class="media__body {{ media__body-modifier }}">
+		<h2 class="media__headline {{ media__headline-modifier }}">{{ headline.short }}</h2>
+		<p class="media__excerpt {{ media__excerpt-modifier }}">{{ excerpt.medium }}</p>
+	</div>
+</a>
