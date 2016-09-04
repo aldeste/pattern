@@ -316,10 +316,10 @@ nav {
       padding-right: 5rem; } }
 
 .header {
-  background: #4B4A4D;
+  background: rgba(114, 114, 198, 0.95);
   padding: .5rem 1rem;
   font-size: .8em;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100vw;
   display: flex;

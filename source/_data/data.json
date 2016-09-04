@@ -18,6 +18,8 @@
       "tagUrl" : "#"
     }
   ],
+  "tagLabel" : "tag",
+  "tagUrl" : "#",
   "author" : "Author Namename",
   "field" : {
     "id" : "field-id",
@@ -26,6 +28,12 @@
     "placeholder" : "Placeholder",
     "value" : "",
     "fieldNote" : ""
+  },
+  "img" : {
+    "avatar" : {
+      "src" : "../../images/avatar.png",
+      "retinasrc" : "../../images/avatar.png"
+    }
   },
   "headline" : {
     "short" : "Headline"
@@ -37,5 +45,6 @@
     "image": "../../images/fpo_16x9.png",
     "alt": "About this picture",
     "caption": "This is a text about the picture"
-  }
+  },
+  "patternLabHeaderUnsets": "Style='position: unset; width: unset;'"
 }
